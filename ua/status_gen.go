@@ -19,7 +19,7 @@ func (n StatusCode) Error() string {
 }
 
 var (
-	StatusOK        StatusCode = 0x0
+	StatusOK        StatusCode = 0x0C
 	StatusUncertain StatusCode = 0x40000000
 	StatusBad       StatusCode = 0x80000000
 
